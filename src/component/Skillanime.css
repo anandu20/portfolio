@@ -1,0 +1,45 @@
+/* Skillanime.css */
+
+.skill-card {
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition for scaling and color change */
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.05); /* Slight scale on hover */
+    background-color: rgba(0, 0, 0, 0.1); /* Light background color change */
+  }
+  
+  .skill-card h3 {
+    transition: transform 0.3s ease; /* Smooth text transition */
+  }
+  
+  .skill-card:hover h3 {
+    transform: translateY(-5px); /* Slightly move text upwards */
+  }
+  
+  /* Optional: Adding animations when elements are visible in the viewport */
+  .animate-fade-slide-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fade-slide-in 0.6s forwards;
+  }
+  
+  @keyframes fade-slide-in {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Fade-in animation for headings and paragraphs */
+  .animate-fade-in {
+    opacity: 0;
+    animation: fade-in 0.6s forwards;
+  }
+  
+  @keyframes fade-in {
+    to {
+      opacity: 1;
+    }
+  }
+  

@@ -1,0 +1,32 @@
+/* Define the fade-in animation */
+@keyframes fade-ins {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the fade-in animation */
+  .animate-fade-in {
+    animation: fade-ins 1.5s ease-out forwards;
+  }
+  
+  /* Define the slide-up-fade animation */
+  @keyframes slide-ups-fade {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the slide-up-fade animation */
+  .animate-slide-ups-fade {
+    animation: slide-ups-fade 0.8s ease-out forwards;
+  }
+  

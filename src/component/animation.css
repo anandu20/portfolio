@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+h2 {
+  font-family: 'Poppins', sans-serif; /* Custom font */
+  color: #ff6f61; /* Example color (coral) */
+  font-size: 3rem; /* Adjust font size */
+  font-weight: 600; /* Adjust font weight */
+  margin-bottom: 1rem; /* Adjust spacing */
+}
+
+/* Fade-in and slide-up effect for the section */
+.fade-in {
+  animation: fadeInUp 1.5s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px); /* Slide from bottom */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Final position */
+  }
+}
+
+/* Profile image animation */
+.profile-image {
+  animation: slideInFromLeft 1s ease-out forwards;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px) scale(0.8); /* Start offscreen and small */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1); /* End at the normal position and scale */
+  }
+}
+
+/* Text fade-in with slight slide-up */
+.text-content {
+  animation: fadeInUpText 1.5s ease-out forwards;
+}
+
+@keyframes fadeInUpText {
+  0% {
+    opacity: 0;
+    transform: translateY(50px); /* Slide from bottom */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Final position */
+  }
+}
+
+/* Button hover effect */
+.button-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Button for Resume and Projects */
+.resume-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.resume-button:hover {
+  background-color: #45a049;
+}
+
+.project-button {
+  background-color: #007BFF;
+  color: white;
+}
+
+.project-button:hover {
+  background-color: #0056b3;
+}
+ 

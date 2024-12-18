@@ -30,18 +30,18 @@ const Skills = () => {
   }, []);
 
   return (
-    <section id="skills" className="py-16 bg-gradient-to-r from-gray-100 via-gray-200 to-gray-300">
-      <h2 className="text-4xl font-bold text-center mb-12 text-gray-800 animate-fade-in font-serif">Technical Skills</h2>
+    <section id="skills" className="py-16 bg-gradient-to-r from-[#91736B] to- [#FBF0F4] ">
+      <h2 className="text-4xl font-bold text-center mb-12  text-gray-800 animate-fade-in font-serif">Technical Skills</h2>
       <p className='w-3/4 m-auto text-xl text-center mb-12 text-gray-800 animate-fade-in'>
-        I have strong skills in JavaScript, HTML, CSS, Node.js, Express, MongoDB, C, C++, SQL, Bootstrap, GitHub, and more, featuring dynamic interactivity with JavaScript, responsive layouts with Tailwind, and backend services built using Node.js, Express, and MongoDB. I also have experience in systems programming with C and C++.
+        I have strong skills in JavaScript, HTML, CSS, Node.js, Express, MongoDB, SQL, Bootstrap, GitHub, and more, featuring dynamic interactivity with JavaScript, responsive layouts with Tailwind, and backend services built using Node.js, Express, and MongoDB. I also have experience in systems programming with C and C++.
       </p>
 
       <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8 text-center">
         
         {/* JavaScript */}
-        <div className="skill-card bg-yellow-300 hover:bg-yellow-400 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '0.1s' }}>
-          <FontAwesomeIcon icon={faJsSquare} size="3x" className="mb-2 text-gray-800" />
-          <h3 className="font-medium text-xl text-gray-800">JavaScript</h3>
+        <div className="skill-card bg-yellow-300 hover:bg-yellow-400 transition duration-300 rounded-lg shadow-lg p-4 " style={{ animationDelay: '0.1s' }}>
+          <FontAwesomeIcon icon={faJsSquare} size="3x" className="mb-2 text-gray-800 " />
+          <h3 className="font-medium text-xl text-gray-800 ">JavaScript</h3>
         </div>
 
         {/* React */}
@@ -86,11 +86,7 @@ const Skills = () => {
           <h3 className="font-medium text-xl text-gray-800">GitHub</h3>
         </div>
 
-        {/* C++ */}
-        <div className="skill-card bg-cyan-800 hover:bg-blue-900 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '1.2s' }}>
-          <FontAwesomeIcon icon={faCode} size="3x" className="mb-2 text-gray-800" />
-          <h3 className="font-medium text-xl text-gray-800">C++</h3>
-        </div>
+    
 
         {/* Express */}
         <div className="skill-card bg-gray-600 hover:bg-gray-700 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '0.7s' }}>

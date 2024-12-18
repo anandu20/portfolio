@@ -1,12 +1,12 @@
 /* Section animation - Zoom and fade-in */
 .fade-in {
-    animation: zoomIn .5s ease-out forwards;
+    animation: zoomIn .7s ease-out forwards;
   }
   
   @keyframes zoomIn {
     0% {
       opacity: 0;
-      transform: scale(0.95) translateY(30px); /* Slightly zoomed out and shifted up */
+      transform: scale(0.9) translateY(10px); /* Slightly zoomed out and shifted up */
     }
     100% {
       opacity: 1;
@@ -21,7 +21,7 @@
   
   .transition-all:hover {
     transform: scale(1.1) translateY(-5px); /* Pop-out effect */
-    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3); /* Strong shadow */
+    box-shadow: 0 8px 25px rgba(124, 55, 55, 0.395); /* Strong shadow */
   }
   
   /* Optional: Subtle icon zoom effect on hover */

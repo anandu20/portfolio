@@ -4,9 +4,9 @@ import './ContactAni.css'; // Ensure you are using the custom CSS file for anima
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-12   bg-gradient-to-r from-slate-900 to-slate-500 text-white">
+    <section id="contact" className="py-10  bg-gradient-to-r from-[#91736B] to- [#FBF0F4] text-white">
       <div className="max-w-4xl mx-auto px-6">
-        <h2 className="text-4xl font-extrabold text-white text-center mb-12 animate-fade-in font-serif pt-6">
+        <h2 className="text-4xl font-extrabold text-gray-800 pb-8 text-center mb-16 animate-fade-in font-serif pt-8">
           Contact Me
         </h2>
 

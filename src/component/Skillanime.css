@@ -6,7 +6,7 @@
   
   .skill-card:hover {
     transform: scale(1.05); /* Slight scale on hover */
-    background-color: rgba(0, 0, 0, 0.1); /* Light background color change */
+    background-color: rgba(255, 253, 253, 0.768); /* Light background color change */
   }
   
   .skill-card h3 {

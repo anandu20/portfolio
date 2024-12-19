@@ -76,43 +76,43 @@ const Skills = () => {
           </div>
 
           {/* CSS */}
-          <div className="skill-card bg-blue-500 hover:bg-blue-600 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '0.5s' }}>
+          <div className="skill-card bg-blue-500 hover:bg-blue-600 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '0.1s' }}>
             <FontAwesomeIcon icon={faCss3Alt} size="3x" className="mb-2 text-gray-800" />
             <h3 className="font-medium text-xl text-gray-800">CSS</h3>
           </div>
 
           {/* Node.js */}
-          <div className="skill-card bg-green-500 hover:bg-green-600 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '0.6s' }}>
+          <div className="skill-card bg-green-500 hover:bg-green-600 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '0.2s' }}>
             <FontAwesomeIcon icon={faNodeJs} size="3x" className="mb-2 text-gray-800" />
             <h3 className="font-medium text-xl text-gray-800">Node.js</h3>
           </div>
 
           {/* Bootstrap */}
-          <div className="skill-card bg-purple-400 hover:bg-purple-500 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '0.8s' }}>
+          <div className="skill-card bg-purple-400 hover:bg-purple-500 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '0.3s' }}>
             <FontAwesomeIcon icon={faBootstrap} size="3x" className="mb-2 text-gray-800" />
             <h3 className="font-medium text-xl text-gray-800">Bootstrap</h3>
           </div>
 
           {/* GitHub */}
-          <div className="skill-card bg-green-500 hover:bg-green-600 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '1.0s' }}>
+          <div className="skill-card bg-green-500 hover:bg-green-600 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '0.4s' }}>
             <FontAwesomeIcon icon={faGithub} size="3x" className="mb-2 text-gray-800" />
             <h3 className="font-medium text-xl text-gray-800">GitHub</h3>
           </div>
 
           {/* Express */}
-          <div className="skill-card bg-gray-600 hover:bg-gray-700 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '1.2s' }}>
+          <div className="skill-card bg-gray-600 hover:bg-gray-700 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '0.1s' }}>
             <FontAwesomeIcon icon={faServer} size="3x" className="mb-2 text-gray-800" />
             <h3 className="font-medium text-xl text-gray-800">Express</h3>
           </div>
 
           {/* MongoDB */}
-          <div className="skill-card bg-green-600 hover:bg-green-700 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '1.4s' }}>
+          <div className="skill-card bg-green-600 hover:bg-green-700 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '0.2s' }}>
             <FontAwesomeIcon icon={faDatabase} size="3x" className="mb-2 text-gray-800" />
             <h3 className="font-medium text-xl text-gray-800">MongoDB</h3>
           </div>
 
           {/* SQL */}
-          <div className="skill-card bg-red-500 hover:bg-red-600 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '1.6s' }}>
+          <div className="skill-card bg-red-500 hover:bg-red-600 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '0.3s' }}>
             <FontAwesomeIcon icon={faDatabase} size="3x" className="mb-2 text-gray-800" />
             <h3 className="font-medium text-xl text-gray-800">SQL</h3>
           </div>

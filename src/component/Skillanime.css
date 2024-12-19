@@ -15,7 +15,7 @@
 .skill-card {
   animation-name: slideInFromLeft;
   animation-timing-function: ease-out;
-  animation-duration: 0.2s;
+  animation-duration: 0.4s;
   animation-fill-mode: both;
   opacity: 0; /* Initially hidden */
 }

@@ -22,7 +22,12 @@ const AboutMe = () => {
         {/* Left Column: Profile Image and Icons */}
         <div className="flex flex-col items-center gap-8">
           <div
-            className="flex content-start w-80 h-80 bg-[url('image/Anandu.jpg')] bg-top bg-cover bg-no-repeat rounded-full border-4 border-white shadow-2xl profile-image"
+            className="flex content-start w-80 h-80  bg-no-repeat rounded-full border-4 border-white shadow-2xl profile-image"
+            style={{
+              backgroundImage: "url('./image/Anandu.jpg')", // Path to your image
+              backgroundSize: "cover", // Ensure it covers the whole section
+              backgroundPosition: "top", // Keep the image centered
+            }}
           ></div>
           
           {/* Social Icons - Centered Below Image */}

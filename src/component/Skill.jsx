@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faJsSquare, faHtml5, faCss3Alt, faReact, faNodeJs, faGitAlt } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faServer, faCode } from '@fortawesome/free-solid-svg-icons';
-import { faBootstrap, faGithub } from '@fortawesome/free-brands-svg-icons'; // Import the GitHub icon
+import { faBootstrap, faGithub } from '@fortawesome/free-brands-svg-icons'; 
 import './Skillanime.css'; // Import the CSS file for animations
 
 const Skills = () => {
@@ -10,7 +10,7 @@ const Skills = () => {
   const handleIntersection = (entries, observer) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        entry.target.classList.add('animate-fade-slide-in'); // Apply animation when in viewport
+        entry.target.classList.add('skill-card-visible'); // Apply animation when in viewport
         observer.unobserve(entry.target); // Stop observing after animation trigger
       }
     });
@@ -52,7 +52,7 @@ const Skills = () => {
 
         <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8 text-center">
           {/* JavaScript */}
-          <div className="skill-card bg-yellow-300 hover:bg-yellow-400 transition duration-300 rounded-lg shadow-lg p-4 " style={{ animationDelay: '0.1s' }}>
+          <div className="skill-card bg-yellow-300 hover:bg-yellow-400 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '0.1s' }}>
             <FontAwesomeIcon icon={faJsSquare} size="3x" className="mb-2 text-gray-800 " />
             <h3 className="font-medium text-xl text-gray-800 ">JavaScript</h3>
           </div>
@@ -88,34 +88,35 @@ const Skills = () => {
           </div>
 
           {/* Bootstrap */}
-          <div className="skill-card bg-purple-400 hover:bg-purple-500 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '1.1s' }}>
+          <div className="skill-card bg-purple-400 hover:bg-purple-500 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '0.8s' }}>
             <FontAwesomeIcon icon={faBootstrap} size="3x" className="mb-2 text-gray-800" />
             <h3 className="font-medium text-xl text-gray-800">Bootstrap</h3>
           </div>
 
           {/* GitHub */}
-          <div className="skill-card bg-green-500 hover:bg-green-600 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '1.3s' }}>
+          <div className="skill-card bg-green-500 hover:bg-green-600 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '1.0s' }}>
             <FontAwesomeIcon icon={faGithub} size="3x" className="mb-2 text-gray-800" />
             <h3 className="font-medium text-xl text-gray-800">GitHub</h3>
           </div>
 
           {/* Express */}
-          <div className="skill-card bg-gray-600 hover:bg-gray-700 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '0.7s' }}>
+          <div className="skill-card bg-gray-600 hover:bg-gray-700 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '1.2s' }}>
             <FontAwesomeIcon icon={faServer} size="3x" className="mb-2 text-gray-800" />
             <h3 className="font-medium text-xl text-gray-800">Express</h3>
           </div>
 
           {/* MongoDB */}
-          <div className="skill-card bg-green-600 hover:bg-green-700 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '0.8s' }}>
+          <div className="skill-card bg-green-600 hover:bg-green-700 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '1.4s' }}>
             <FontAwesomeIcon icon={faDatabase} size="3x" className="mb-2 text-gray-800" />
             <h3 className="font-medium text-xl text-gray-800">MongoDB</h3>
           </div>
 
           {/* SQL */}
-          <div className="skill-card bg-red-500 hover:bg-red-600 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '1.0s' }}>
+          <div className="skill-card bg-red-500 hover:bg-red-600 transition duration-300 rounded-lg shadow-lg p-4" style={{ animationDelay: '1.6s' }}>
             <FontAwesomeIcon icon={faDatabase} size="3x" className="mb-2 text-gray-800" />
             <h3 className="font-medium text-xl text-gray-800">SQL</h3>
           </div>
+          
         </div>
       </div>
     </section>

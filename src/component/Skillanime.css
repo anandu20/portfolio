@@ -1,4 +1,4 @@
-/* Skillanime.css */
+Skillanime.css
 
 .skill-card {
     transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition for scaling and color change */
@@ -43,3 +43,39 @@
     }
   }
   
+  /* Add this to your Skillanime.css file */
+
+/* Section with background image */
+#skills {
+  background-image: url(''); /* Path to your image */
+  background-size: cover; /* Make sure the background covers the section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Avoid repeating the image */
+}
+
+/* Other styles for the section */
+#skills h2, #skills p {
+  /* Add any additional styling for text to ensure it's visible on top of the background */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Optional: add text shadow for better readability */
+}
+
+
+/* Add these styles to Skillanime.css */
+
+/* Smooth transition for icon scaling on hover */
+.skill-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: scale(1.1); /* Slightly scale up the card */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.skill-card .fa {
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover .fa {
+  transform: scale(1.2); /* Scale the icon slightly when hovered */
+}

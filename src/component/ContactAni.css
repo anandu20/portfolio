@@ -10,14 +10,14 @@
   
   /* Apply the fade-in animation */
   .animate-fade-in {
-    animation: fade-ins 1.5s ease-out forwards;
+    animation: fade-ins 1.1s ease-out forwards;
   }
   
   /* Define the slide-up-fade animation */
   @keyframes slide-ups-fade {
     0% {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(10px);
     }
     100% {
       opacity: 1;

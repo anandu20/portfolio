@@ -1,0 +1,18 @@
+/* Skillanime.css */
+
+.skill-card {
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+  }
+  
+  /* Add any other existing styles you have */
+  .animate-fade-slide-in {
+    /* Your existing animation styles */
+  }
+  
+  .animate-fade-in {
+    /* Your existing animation styles */
+  }

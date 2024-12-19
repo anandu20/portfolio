@@ -15,5 +15,22 @@
 }
 
 
+/* ProjAnima.css */
+.project-image {
+  transition: filter 0.3s ease; /* Smooth transition for filter */
+}
+
+.project-image:hover {
+  filter: grayscale(100%); /* Turn image to grayscale on hover */
+}
+
+.project-button {
+  transition: transform 0.3s ease; /* Smooth transition for button */
+}
+
+.project-button:hover {
+  transform: translateY(-5px); /* Rise effect on hover */
+}
+
 
 

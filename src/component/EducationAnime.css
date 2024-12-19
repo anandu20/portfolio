@@ -33,3 +33,50 @@
     transform: scale(1.2); /* Zoom effect on icon */
   }
   
+  .education-background {
+    background-image: url('path_to_your_image.jpg'); /* Set path to your image */
+    background-size: cover; /* Ensures the image covers the whole section */
+    background-position: center; /* Centers the image */
+    
+  }
+  /* Apply the background image and set up the initial state */
+#education {
+  position: relative;
+  background-image: url('./image/pass.jpg'); /* Path to your image */
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease; /* Smooth transition for background blur */
+
+}
+
+/* Use a pseudo-element to create the blurred background */
+#education::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: inherit; /* Inherit the background image from the parent */
+  background-size: cover;
+  background-position: center;
+  filter: blur(px); /* Initially, no blur */
+  z-index: -1; /* Ensure it's behind the content */
+  transition: filter 0.3s ease; /* Smooth transition for the blur */
+}
+
+/* When hovering over the section, apply the blur effect */
+#education:hover::before {
+  filter: blur(8px); /* Apply the blur when hovering */
+}
+
+/* Optional: Add a dark overlay to make the text more readable */
+#education::before {
+  background-color: rgba(62, 59, 59, 0.627); /* Dark overlay */
+}
+
+/* Optional: Make sure the content inside the section remains clear */
+.education-card {
+  position: relative;
+  z-index: 10; /* Ensures content stays in front */
+}

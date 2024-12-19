@@ -31,7 +31,7 @@ const Projects = () => {
     <section
       id="projects"
       ref={sectionRef}
-      className={`py-20 pb-8 bg-gradient-to-r from-[#91736B] to- [#FBF0F4]  ${isVisible ? 'animate-slide-in' : ''}`}
+      className={`py-20 pb-8 bg-[#9DBBAE] ${isVisible ? 'animate-slide-in' : ''}`}
     >
       <h2 className="text-4xl font-bold text-center mb-12 text-gray-800 font-serif">
         My Projects

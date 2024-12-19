@@ -1,1 +1,54 @@
 
+/* Fade-in animation */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(0px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Slide-up animation for profile image and text */
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Fade-in effect for the section */
+  .fade-in {
+    animation: fadeIn 1.5s ease-out forwards;
+  }
+  
+
+  
+  /* Slide-up animation for text content */
+  .text-content {
+    animation: slideUp 1.5s ease-out forwards;
+    animation-delay: 1s; /* Delay the text content animation */
+  }
+  
+  /* Add hover effect on social icons */
+  .social-icons a:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .project-button:hover,
+  .resume-button:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-button, .resume-button {
+    transition: transform 0.3s ease;
+  }
+  
